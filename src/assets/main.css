@@ -1,1 +1,53 @@
 @import "./base.css";
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.g-1rem {
+  gap: 1rem;
+}
+
+.g-0rem-half {
+  gap: 0.5rem;
+}
+
+.cursor-pointer { cursor: pointer; }
+
+
+.credits { color: #A9A9A9; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 1rem;
+}
