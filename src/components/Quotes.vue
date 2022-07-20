@@ -63,6 +63,7 @@ export default defineComponent({
         },
         setAuthor() {
             if(this.quote) {
+                this.authorQuotes = [];
                 this.author = this.quote!.quoteAuthor;
                 this.loadPage();
             }
